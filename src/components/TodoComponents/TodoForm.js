@@ -1,18 +1,17 @@
 import react from 'react';
 
-const TodoForm= props=> {
+const TodoForm = props => {
     return (
         <div>
-        <h2>{this.state.TodoList}</h2>
-        <input type="text" onChange={this.changeTodoList}
+       
+        <input type="text" onChange={props.updateTodos}
         placeholder="Add Todo"
-        value={this.state.Todo}
+        value={props.NewTodo}
         />
-        < button onSubmit={this.addTodo}>Add Todo</button>
+        < button onClick={props.updateTodos}>Add Todo</button>
        
         </div>
     )
 }
-}
-    )
-}
+
+    export default TodoForm;
