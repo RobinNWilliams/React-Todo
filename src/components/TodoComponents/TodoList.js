@@ -33,8 +33,6 @@ take the info and attach it to our <Todo> component
 
 return the <Todo> component
 
- ------
-
 .map( variableName => do stuff to variableName )
 
 show up on browser:
